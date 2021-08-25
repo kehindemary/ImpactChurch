@@ -1,0 +1,70 @@
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.2); 
+}
+
+.sermon-container{
+    position: relative;
+    z-index: 1;
+}
+
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 20%; 
+}
+
+/* The Close Button */
+.close {
+  color: #B7695B !important;
+  float: right;
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close-text {
+    color: #B7695B !important;
+    float: right;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+#myBtn{
+    background: #B7695B;
+    color: #ffffff;
+    margin-top: 1em;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

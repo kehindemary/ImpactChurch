@@ -22,9 +22,10 @@ ol {
   ol li {
     list-style: none; }
 
-.logo{
+#logo{
   height: auto;
-  width: 70%; 
+  width: 250px; 
+  max-width: 600px;
 }
 
 .bg-img {
@@ -471,8 +472,8 @@ ol {
       border-right: none;
       border-bottom: 1px solid #f2f4f8; }
 .breakpoint-on .classynav > ul > li > a {
-  background-color: #f2f4f8;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+  background-color: #ffffff;
+  border-bottom: 1px solid  rgba(242, 244, 248, 0.7); }
 .breakpoint-on .classynav ul li ul.dropdown li ul li {
   margin-left: 15px; }
 .breakpoint-on .classy-btn {
@@ -587,6 +588,21 @@ ol {
 .dropdown-rtl.breakpoint-on .classynav ul li ul.dropdown li ul li {
   margin-left: 0;
   margin-right: 15px; }
+
+  @media screen and (min-width: 1440px){
+    #logo{
+      height: auto;
+      width: 500px; 
+      max-width: 600px;
+    }
+  }
+  @media screen and (min-width: 1024px){
+    #logo{
+      height: auto;
+      width: 400px; 
+      max-width: 600px;
+    }
+  }
 
 /* Fallback Responsive CSS */
 

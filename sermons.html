@@ -21,14 +21,11 @@
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+
   </head>
 
   <body>
-    <!-- ##### Preloader ##### -->
-    <div class="preloader d-flex align-items-center justify-content-center">
-      <!-- Line -->
-      <div class="line-preloader"></div>
-    </div>
 
     <!-- ##### Header Area Start ##### -->
     <header class="header-area">
@@ -42,39 +39,38 @@
               >
                 <!-- Top Header Meta -->
                 <div class="top-header-meta d-flex flex-wrap">
-                  <a
-                    href="#"
-                    class="open"
-                    data-toggle="tooltip"
-                    data-placement="bottom"
-                    title="10 Am to 6 PM"
-                    ><i class="fa fa-clock-o" aria-hidden="true"></i>
-                    <span>Opening Hours - 10 Am to 6 PM</span></a
-                  >
                   <!-- Social Info -->
                   <div class="top-social-info">
-                    <a href="#"
+                      <span >Follow us on: </span>
+                    <a
+                      href="https://web.facebook.com/thecitadelofimpact"
+                      target="_blank"
                       ><i class="fa fa-facebook" aria-hidden="true"></i
                     ></a>
-                    <a href="#"
-                      ><i class="fa fa-twitter" aria-hidden="true"></i
+
+                    <a
+                      href="https://www.instagram.com/tci_nebcabuja/"
+                      target="_blank"
+                      ><i class="fa fa-instagram" aria-hidden="true"></i
                     ></a>
-                    <a href="#"
-                      ><i class="fa fa-google-plus" aria-hidden="true"></i
+                    <a
+                      href="https://www.youtube.com/channel/UCNjCH3hoKeMsMh0khsuLQng"
+                      target="_blank"
+                      ><i class="fa fa-youtube" aria-hidden="true"></i
                     ></a>
                   </div>
                 </div>
                 <!-- Top Header Meta -->
                 <div class="top-header-meta">
                   <a
-                    href="mailto:info.deercreative@gmail.com"
+                    href="mailto:Info@thecitadelofimpact.org"
                     class="email-address"
                     ><i class="fa fa-envelope" aria-hidden="true"></i>
-                    <span>info.deercreative@gmail.com</span></a
+                    <span>Info@thecitadelofimpact.org</span></a
                   >
                   <a href="#" class="phone"
                     ><i class="fa fa-phone" aria-hidden="true"></i>
-                    <span>+12 345 678 910</span></a
+                    <span>09011371118, 08121808011</span></a
                   >
                 </div>
               </div>
@@ -91,11 +87,11 @@
             <!-- Menu -->
             <nav class="classy-navbar justify-content-between" id="croseNav">
               <!-- Nav brand -->
-              <a href="index.html" class="nav-brand">
+              <a href="index" class="nav-brand">
                 <img
-                  src="https://res.cloudinary.com/marykaystuff/image/upload/v1615111249/citadel-of-impact-church/gapt5hix2ulyxnsxrnsw.png"
+                  src="https://res.cloudinary.com/marykaystuff/image/upload/v1619346859/citadel-of-impact-church/ljl2afywdhtzibnzn4jz.png"
+                  id="logo"
                   alt=""
-                  class="logo"
               /></a>
 
               <!-- Navbar Toggler -->
@@ -117,34 +113,21 @@
                 <!-- Nav Start -->
                 <div class="classynav">
                   <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index">Home</a></li>
                     <li>
-                      <a href="#">Pages</a>
-                      <ul class="dropdown">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="sermons.html">Sermons</a></li>
-                        <li>
-                          <a href="sermons-details.html">Sermons Details</a>
-                        </li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="single-post.html">Blog Details</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                      </ul>
+                      <a href="about">About</a>
                     </li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="sermons.html">Sermons</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="events">Events</a></li>
+                    <li><a href="sermons">Sermons</a></li>
+                    <li><a href="blog">Blog</a></li>
+                    <li><a href="donate">Donate</a></li>
+                    <li><a href="contact">Contact</a></li>
                   </ul>
 
                   <!-- Search Button -->
                   <div id="header-search">
                     <i class="fa fa-search" aria-hidden="true"></i>
                   </div>
-
-                  <!-- Donate Button -->
                 </div>
                 <!-- Nav End -->
               </div>
@@ -187,7 +170,7 @@
           <div class="col-12">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="index">Home</a></li>
                 <li class="breadcrumb-item active" aria-current="page">
                   Sermons
                 </li>
@@ -199,484 +182,1321 @@
     </div>
     <!-- ##### Breadcrumb Area End ##### -->
 
-    <!-- ##### Sermons Area Start ##### -->
-    <div class="sermons-content-area section-padding-100-0">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="sermons-content-thumbnail">
-              <img src="img/bg-img/31.jpg" alt="" />
-            </div>
-            <!-- Sermons Text -->
-            <div class="sermons-text text-center">
-              <h2>Start a New Way of Living</h2>
-              <div
-                class="sermons-meta-data d-flex flex-wrap justify-content-center"
-              >
-                <p>
-                  <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
-                  <span>Jorge Malone</span>
-                </p>
-                <p>
-                  <i class="fa fa-tag" aria-hidden="true"></i> Categories:
-                  <span>God, Pray</span>
-                </p>
-                <p>
-                  <i class="fa fa-clock-o" aria-hidden="true"></i> March 10 on
-                  <span>9:00 am - 11:00 am</span>
-                </p>
-              </div>
-              <div class="sermons-cata">
-                <a
-                  href="#"
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  title="Video"
-                  ><i class="fa fa-video-camera" aria-hidden="true"></i
-                ></a>
-                <a
-                  href="#"
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  title="Audio"
-                  ><i class="fa fa-headphones" aria-hidden="true"></i
-                ></a>
-                <a
-                  href="#"
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  title="Docs"
-                  ><i class="fa fa-file" aria-hidden="true"></i
-                ></a>
-                <a
-                  href="#"
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  title="Download"
-                  ><i class="fa fa-cloud-download" aria-hidden="true"></i
-                ></a>
-              </div>
-              <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which don't look even
-                slightly believable. If you are going to use a passage of Lorem
-                Ipsum, you need to be sure there isn't anything embarrassin.
-              </p>
-              <div
-                class="read-more-share d-flex flex-wrap justify-content-between"
-              >
-                <div class="read-more-btn">
-                  <a href="#"
-                    >Read More
-                    <i class="fa fa-angle-double-right" aria-hidden="true"></i
-                  ></a>
-                </div>
-                <!-- Share -->
-                <div class="share">
-                  <span>Share:</span>
-                  <a href="#"
-                    ><i class="fa fa-facebook" aria-hidden="true"></i
-                  ></a>
-                  <a href="#"
-                    ><i class="fa fa-twitter" aria-hidden="true"></i
-                  ></a>
-                  <a href="#"
-                    ><i class="fa fa-google-plus" aria-hidden="true"></i
-                  ></a>
-                  <a href="#"
-                    ><i class="fa fa-linkedin" aria-hidden="true"></i
-                  ></a>
-                  <a href="#"
-                    ><i class="fa fa-envelope" aria-hidden="true"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- ##### Sermons Area End ##### -->
-
     <!-- ##### Latest Sermons Area Start ##### -->
-    <section class="latest-sermons-area">
+     <section class="latest-sermons-area section-padding-100-0">
       <div class="container">
         <div class="row">
           <!-- Section Heading -->
           <div class="col-12">
             <div class="section-heading">
-              <h2>Popular Sermons</h2>
-              <p>
-                Loaded with fast-paced worship, activities, and video teachings
-                to address real issues that students face each day
-              </p>
+              <h2>Our Sermon Archive</h2>
+              <p>Loaded with fast-paced worship, activities, and teachings</p>
             </div>
           </div>
         </div>
 
-        <div class="row">
+        
+          <div class="row sermon-container justify-content-center">
           <!-- Single Latest Sermons -->
-          <div class="col-12 col-sm-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-3">
             <div class="single-latest-sermons mb-100">
               <div class="sermons-thumbnail">
-                <img src="img/bg-img/7.jpg" alt="" />
+                <img
+                  src="https://res.cloudinary.com/marykaystuff/image/upload/v1628105893/citadel-of-impact-church/eimnlcccrbfeqawdi3ca.jpg"
+                  alt=""
+                />
                 <!-- Date -->
                 <div class="sermons-date">
-                  <h6><span>10</span>MAR</h6>
+                  <h6><span>03</span>January</h6>
                 </div>
               </div>
               <div class="sermons-content">
-                <div class="sermons-cata">
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Video"
-                    ><i class="fa fa-video-camera" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Audio"
-                    ><i class="fa fa-headphones" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Docs"
-                    ><i class="fa fa-file" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Download"
-                    ><i class="fa fa-cloud-download" aria-hidden="true"></i
-                  ></a>
-                </div>
-                <h4>Start a New Way of Living</h4>
+                <h4>Living the Supernatural: Audacious</h4>
                 <div class="sermons-meta-data">
                   <p>
                     <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
-                    <span>Jorge Malone</span>
+                    <span>Pastor Abiodun Aribike</span>
                   </p>
+
                   <p>
-                    <i class="fa fa-tag" aria-hidden="true"></i> Categories:
-                    <span>God, Pray</span>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i> January 03
+                    <span>7:30 am - 12:00 pm</span>
                   </p>
+                  <!-- Button trigger modal -->
+                  <a href="#" id="myBtn">Download</a>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628108207/citadel-of-impact-church/Audio/ewcwlxgp8syeaav58msy.mp3" download="true" class="btn-1">First Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628108454/citadel-of-impact-church/Audio/jnwverz054hvuthoelgk.mp3" download="true" class="btn-1">Second Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628108552/citadel-of-impact-church/Audio/rmozbiqrslf7aaai8wfk.mp3" download="true" class="btn-1">Third Service</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="single-latest-sermons mb-100">
+              <div class="sermons-thumbnail">
+                <img
+                  src="https://res.cloudinary.com/marykaystuff/image/upload/v1628105889/citadel-of-impact-church/qyghr8fs141csf0qapl7.jpg"
+                  alt=""
+                />
+                <!-- Date -->
+                <div class="sermons-date">
+                  <h6><span>10</span>January</h6>
+                </div>
+              </div>
+              <div class="sermons-content">
+                <h4>Living the Supernatural Life</h4>
+                <div class="sermons-meta-data">
                   <p>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i> March 10 on
-                    <span>9:00 am - 11:00 am</span>
+                    <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
+                    <span>Pastor Abiodun Aribike</span>
                   </p>
+
+                  <p>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i> January 10
+                    <span>7:30 am - 12:00 pm</span>
+                  </p>
+                  <!-- Button trigger modal -->
+                  <a href="#" id="myBtn">Download</a>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628108865/citadel-of-impact-church/Audio/ygk4m0mxuz3oxppcp4pt.mp3" download="true" class="btn-1">First Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628108876/citadel-of-impact-church/Audio/m2svxb3gbxltjnbvc6ix.mp3" download="true" class="btn-1">Second Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628108895/citadel-of-impact-church/Audio/e4bhsnsliwrvehqtgjho.mp3" download="true" class="btn-1">Third Service</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="single-latest-sermons mb-100">
+              <div class="sermons-thumbnail">
+                <img
+                  src="https://res.cloudinary.com/marykaystuff/image/upload/v1627985075/citadel-of-impact-church/kj8ef8ejmgvgymb72ozu.jpg"
+                  alt=""
+                />
+                <!-- Date -->
+                <div class="sermons-date">
+                  <h6><span>17</span>January</h6>
+                </div>
+              </div>
+              <div class="sermons-content">
+                <h4>Living Supernaturally</h4>
+                <div class="sermons-meta-data">
+                  <p>
+                    <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
+                    <span>Pastor Abiodun Aribike</span>
+                  </p>
+
+                  <p>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i> January 17
+                    <span>7:30 am - 12:00 pm</span>
+                  </p>
+                  <!-- Button trigger modal -->
+                  <a href="#" id="myBtn">Download</a>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                      <!-- Modal content -->
+                      <div id="modal-locked">
+                      <div class="modal-content">
+                        <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628109318/citadel-of-impact-church/Audio/jrjvh0qie21deqbu1l4x.mp3" download="true" class="btn-1">First Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628109631/citadel-of-impact-church/Audio/y5c4ohdvz0a6kjrob9xx.mp3" download="true" class="btn-1">Second Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628109733/citadel-of-impact-church/Audio/uygx1zd1pbjgya8kqguv.mp3" download="true" class="btn-1">Third Service</a>
+                      </div>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Single Latest Sermons -->
-          <div class="col-12 col-sm-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-3">
             <div class="single-latest-sermons mb-100">
               <div class="sermons-thumbnail">
-                <img src="img/bg-img/8.jpg" alt="" />
+                <img
+                  src="https://res.cloudinary.com/marykaystuff/image/upload/v1627985075/citadel-of-impact-church/kj8ef8ejmgvgymb72ozu.jpg"
+                  alt=""
+                />
                 <!-- Date -->
                 <div class="sermons-date">
-                  <h6><span>11</span>MAY</h6>
+                  <h6><span>24</span>January</h6>
                 </div>
               </div>
               <div class="sermons-content">
-                <div class="sermons-cata">
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Video"
-                    ><i class="fa fa-video-camera" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Audio"
-                    ><i class="fa fa-headphones" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Docs"
-                    ><i class="fa fa-file" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Download"
-                    ><i class="fa fa-cloud-download" aria-hidden="true"></i
-                  ></a>
-                </div>
-                <h4>What Must I Do To Be Save</h4>
+                <h4>Living Supernaturally</h4>
                 <div class="sermons-meta-data">
                   <p>
                     <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
-                    <span>Jorge Malone</span>
+                    <span>Pastor Abiodun Aribike</span>
                   </p>
+
                   <p>
-                    <i class="fa fa-tag" aria-hidden="true"></i> Categories:
-                    <span>God, Pray</span>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i> January 24
+                    <span>7:30 am - 12:00 pm</span>
                   </p>
+                  <!-- Button trigger modal -->
+                  <a href="#" id="myBtn">Download</a>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                      <!-- Modal content -->
+                      <div id="modal-locked">
+                      <div class="modal-content">
+                        <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628109949/citadel-of-impact-church/Audio/vk6q7tnqzt8f8fpsmrb0.mp3" download="true" class="btn-1">First Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628109516/citadel-of-impact-church/Audio/lrurwmepo2mnlddqbwgp.mp3" download="true" class="btn-1">Second Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628110001/citadel-of-impact-church/Audio/st05gtu7h4vevc4czdzf.mp3" download="true" class="btn-1">Third Service</a>
+                      </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="single-latest-sermons mb-100">
+              <div class="sermons-thumbnail">
+                <img
+                  src="https://res.cloudinary.com/marykaystuff/image/upload/v1628105889/citadel-of-impact-church/pcseli5fokiyeibh2myp.jpg"
+                  alt=""
+                />
+                <!-- Date -->
+                <div class="sermons-date">
+                  <h6><span>30</span>January</h6>
+                </div>
+              </div>
+              <div class="sermons-content">
+                <h4>Living the Supernatural</h4>
+                <div class="sermons-meta-data">
                   <p>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i> March 11 on
-                    <span>10:00 am - 11:00 am</span>
+                    <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
+                    <span>Pastor Abiodun Aribike</span>
                   </p>
+
+                  <p>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i> January 30
+                    <span>7:30 am - 12:00 pm</span>
+                  </p>
+                  <!-- Button trigger modal -->
+                  <a href="#" id="myBtn">Download</a>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628110361/citadel-of-impact-church/Audio/pyinmfmwuxdc3kdotkgb.mp3" download="true" class="btn-1">First Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628110484/citadel-of-impact-church/Audio/htjisg42zoc6hpyn0nhx.mp3" download="true" class="btn-1">Second Service</a>
+                        <a href="#" download="true" class="btn-1">Third Service</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="single-latest-sermons mb-100">
+              <div class="sermons-thumbnail">
+                <img
+                  src="https://res.cloudinary.com/marykaystuff/image/upload/v1628105895/citadel-of-impact-church/ypzwzdjdjiqumblrtpkw.jpg"
+                  alt=""
+                />
+                <!-- Date -->
+                <div class="sermons-date">
+                  <h6><span>07</span>Febuary</h6>
+                </div>
+              </div>
+              <div class="sermons-content">
+                <h4>Meet the Holy Spirit</h4>
+                <div class="sermons-meta-data">
+                  <p>
+                    <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
+                    <span>Pastor Abiodun Aribike</span>
+                  </p>
+
+                  <p>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i> February 07
+                    <span>7:30 am - 12:00 pm</span>
+                  </p>
+                  <!-- Button trigger modal -->
+                  <a href="#" id="myBtn">Download</a>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628110622/citadel-of-impact-church/Audio/qax84ciwzrvymjdqihuf.mp3" download="true" class="btn-1">First Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628110774/citadel-of-impact-church/Audio/wqdvppcdvccmhwgdllus.mp3" download="true" class="btn-1">Second Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628110889/citadel-of-impact-church/Audio/ridmz481qhoieuw8wut6.mp3" download="true" class="btn-1">Third Service</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="single-latest-sermons mb-100">
+              <div class="sermons-thumbnail">
+                <img
+                  src="https://res.cloudinary.com/marykaystuff/image/upload/v1627984942/citadel-of-impact-church/bf4vkxn8byeijktlghqz.jpg"
+                  alt=""
+                />
+                <!-- Date -->
+                <div class="sermons-date">
+                  <h6><span>14</span>February</h6>
+                </div>
+              </div>
+              <div class="sermons-content">
+                <h4>Holy Spirit our Helper</h4>
+                <div class="sermons-meta-data">
+                  <p>
+                    <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
+                    <span>Pastor Abiodun Aribike</span>
+                  </p>
+
+                  <p>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i> February 14
+                    <span>7:30 am - 12:00 pm</span>
+                  </p>
+                  <!-- Button trigger modal -->
+                  <a href="#" id="myBtn">Download</a>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                      <!-- Modal content -->
+                      <div id="modal-locked">
+                      <div class="modal-content">
+                        <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628111036/citadel-of-impact-church/Audio/ar2ygcdvmfthcngye3tm.mp3" download="true" class="btn-1">First Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628111138/citadel-of-impact-church/Audio/hpmukhmfja4vwjn39xrt.mp3" download="true" class="btn-1">Second Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628111224/citadel-of-impact-church/Audio/retk0vwvh6sn28bhdujz.mp3" download="true" class="btn-1">Third Service</a>
+                      </div>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Single Latest Sermons -->
-          <div class="col-12 col-sm-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-3">
             <div class="single-latest-sermons mb-100">
               <div class="sermons-thumbnail">
-                <img src="img/bg-img/9.jpg" alt="" />
+                <img
+                  src="https://res.cloudinary.com/marykaystuff/image/upload/v1627984921/citadel-of-impact-church/jszob8etzzmwjqjmelfk.jpg"
+                  alt=""
+                />
                 <!-- Date -->
                 <div class="sermons-date">
-                  <h6><span>15</span>MAY</h6>
+                  <h6><span>21</span>February</h6>
                 </div>
               </div>
               <div class="sermons-content">
-                <div class="sermons-cata">
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Video"
-                    ><i class="fa fa-video-camera" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Audio"
-                    ><i class="fa fa-headphones" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Docs"
-                    ><i class="fa fa-file" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Download"
-                    ><i class="fa fa-cloud-download" aria-hidden="true"></i
-                  ></a>
-                </div>
-                <h4>The Second Coming of Christ</h4>
+                <h4>Holy Spirit my Helper</h4>
                 <div class="sermons-meta-data">
                   <p>
                     <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
-                    <span>Jorge Malone</span>
+                    <span>Pastor Abiodun Aribike</span>
                   </p>
+
                   <p>
-                    <i class="fa fa-tag" aria-hidden="true"></i> Categories:
-                    <span>God, Pray</span>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i> February 21
+                    <span>7:30 am - 12:00 pm</span>
                   </p>
+                  <!-- Button trigger modal -->
+                  <a href="#" id="myBtn">Download</a>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                      <!-- Modal content -->
+                      <div id="modal-locked">
+                      <div class="modal-content">
+                        <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628112545/citadel-of-impact-church/Audio/z9wzfhhaku3mlvlylnkd.mp3" download="true" class="btn-1">First Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628112658/citadel-of-impact-church/Audio/r6wyrsst4oi9t7pscrnh.mp3" download="true" class="btn-1">Second Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628112661/citadel-of-impact-church/Audio/qyybv2oxizetuf7ffch0.mp3" download="true" class="btn-1">Third Service</a>
+                      </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="single-latest-sermons mb-100">
+              <div class="sermons-thumbnail">
+                <img
+                  src="https://res.cloudinary.com/marykaystuff/image/upload/v1628105897/citadel-of-impact-church/uzay94yhwhlw3ymq7ppn.jpg"
+                  alt=""
+                />
+                <!-- Date -->
+                <div class="sermons-date">
+                  <h6><span>28</span>February</h6>
+                </div>
+              </div>
+              <div class="sermons-content">
+                <h4>Holy Spirit our Helper</h4>
+                <div class="sermons-meta-data">
                   <p>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i> March 10 on
-                    <span>9:00 am - 11:00 am</span>
+                    <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
+                    <span>Pastor Abiodun Aribike</span>
                   </p>
+
+                  <p>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i> February 28
+                    <span>7:30 am - 12:00 pm</span>
+                  </p>
+                  <!-- Button trigger modal -->
+                  <a href="#" id="myBtn">Download</a>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628112892/citadel-of-impact-church/Audio/qnhteenou1kl2q4xllmv.mp3" download="true" class="btn-1">First Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628112902/citadel-of-impact-church/Audio/ux6puci9edcybtt212ai.mp3" download="true" class="btn-1">Second Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628113463/citadel-of-impact-church/Audio/ou05rzh6bueobftfddrk.mp3" download="true" class="btn-1">Third Service</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="single-latest-sermons mb-100">
+              <div class="sermons-thumbnail">
+                <img
+                  src="https://res.cloudinary.com/marykaystuff/image/upload/v1628105896/citadel-of-impact-church/ij8gpdinmqez1rogpmiq.jpg"
+                  alt=""
+                />
+                <!-- Date -->
+                <div class="sermons-date">
+                  <h6><span>07</span>March</h6>
+                </div>
+              </div>
+              <div class="sermons-content">
+                <h4>Arise, Confront & Conquer</h4>
+                <div class="sermons-meta-data">
+                  <p>
+                    <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
+                    <span>Pastor Abiodun Aribike</span>
+                  </p>
+
+                  <p>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i> March 07
+                    <span>7:30 am - 12:00 pm</span>
+                  </p>
+                  <!-- Button trigger modal -->
+                  <a href="#" id="myBtn">Download</a>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                        <a href="#" download="true" class="btn-1">First Service</a>
+                        <a href="#" download="true" class="btn-1">Second Service</a>
+                        <a href="#" download="true" class="btn-1">Third Service</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="single-latest-sermons mb-100">
+              <div class="sermons-thumbnail">
+                <img
+                  src="https://res.cloudinary.com/marykaystuff/image/upload/v1627985104/citadel-of-impact-church/qdrvk08idkrfzvh1wuaz.jpg"
+                  alt=""
+                />
+                <!-- Date -->
+                <div class="sermons-date">
+                  <h6><span>14</span>March</h6>
+                </div>
+              </div>
+              <div class="sermons-content">
+                <h4>The Outpouring</h4>
+                <div class="sermons-meta-data">
+                  <p>
+                    <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
+                    <span>Pastor Abiodun Aribike</span>
+                  </p>
+
+                  <p>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i> March 14
+                    <span>7:30 am - 12:00 pm</span>
+                  </p>
+                  <!-- Button trigger modal -->
+                  <a href="#" id="myBtn">Download</a>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                      <!-- Modal content -->
+                      <div id="modal-locked">
+                      <div class="modal-content">
+                        <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628113755/citadel-of-impact-church/Audio/cwixtq2abrto2jxkxr69.mp3" download="true" class="btn-1">First Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628113719/citadel-of-impact-church/Audio/tp9ajchplhxxtciy9ygm.mp3" download="true" class="btn-1">Second Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628113824/citadel-of-impact-church/Audio/v1rvm4zn0qty5xm1fjop.mp3" download="true" class="btn-1">Third Service</a>
+                      </div>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Single Latest Sermons -->
-          <div class="col-12 col-sm-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-3">
             <div class="single-latest-sermons mb-100">
               <div class="sermons-thumbnail">
-                <img src="img/bg-img/7.jpg" alt="" />
+                <img
+                  src="https://res.cloudinary.com/marykaystuff/image/upload/v1628105900/citadel-of-impact-church/j1bam5ynncidxlrngzik.jpg"
+                  alt=""
+                />
                 <!-- Date -->
                 <div class="sermons-date">
-                  <h6><span>10</span>MAR</h6>
+                  <h6><span>21</span>March</h6>
                 </div>
               </div>
               <div class="sermons-content">
-                <div class="sermons-cata">
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Video"
-                    ><i class="fa fa-video-camera" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Audio"
-                    ><i class="fa fa-headphones" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Docs"
-                    ><i class="fa fa-file" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Download"
-                    ><i class="fa fa-cloud-download" aria-hidden="true"></i
-                  ></a>
-                </div>
-                <h4>Start a New Way of Living</h4>
+                <h4>The Outpouring</h4>
                 <div class="sermons-meta-data">
                   <p>
                     <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
-                    <span>Jorge Malone</span>
+                    <span>Pastor Abiodun Aribike</span>
                   </p>
+
                   <p>
-                    <i class="fa fa-tag" aria-hidden="true"></i> Categories:
-                    <span>God, Pray</span>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i> March 21
+                    <span>7:30 am - 12:00 pm</span>
                   </p>
+                  <!-- Button trigger modal -->
+                  <a href="#" id="myBtn">Download</a>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                      <!-- Modal content -->
+                      <div id="modal-locked">
+                      <div class="modal-content">
+                        <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628114564/citadel-of-impact-church/Audio/v0uywcyyiyxailwfi2s0.mp3" download="true" class="btn-1">First Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628114631/citadel-of-impact-church/Audio/ws4wrb2zq8ini2hbbfvx.mp3" download="true" class="btn-1">Second Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628114633/citadel-of-impact-church/Audio/hz3qui0kwmy2wydyuizu.mp3" download="true" class="btn-1">Third Service</a>
+                      </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="single-latest-sermons mb-100">
+              <div class="sermons-thumbnail">
+                <img
+                  src="https://res.cloudinary.com/marykaystuff/image/upload/v1628105902/citadel-of-impact-church/oljyaofvwnlwcyteryhk.jpg"
+                  alt=""
+                />
+                <!-- Date -->
+                <div class="sermons-date">
+                  <h6><span>28</span>March</h6>
+                </div>
+              </div>
+              <div class="sermons-content">
+                <h4>Moving Forward</h4>
+                <div class="sermons-meta-data">
                   <p>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i> March 10 on
-                    <span>9:00 am - 11:00 am</span>
+                    <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
+                    <span>Pastor Abiodun Aribike</span>
                   </p>
+
+                  <p>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i> March 28
+                    <span>7:30 am - 12:00 pm</span>
+                  </p>
+                  <!-- Button trigger modal -->
+                  <a href="#" id="myBtn">Download</a>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                        <a href="#" download="true" class="btn-1">First Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628114723/citadel-of-impact-church/Audio/ubpitudmqtko8azeeibr.mp3" download="true" class="btn-1">Second Service</a>
+                        <a href="#" download="true" class="btn-1">Third Service</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="single-latest-sermons mb-100">
+              <div class="sermons-thumbnail">
+                <img
+                  src="https://res.cloudinary.com/marykaystuff/image/upload/v1627985085/citadel-of-impact-church/i9x4cxd505s2tdgwahxu.jpg"
+                  alt=""
+                />
+                <!-- Date -->
+                <div class="sermons-date">
+                  <h6><span>04</span>April</h6>
+                </div>
+              </div>
+              <div class="sermons-content">
+                <h4>The Blood</h4>
+                <div class="sermons-meta-data">
+                  <p>
+                    <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
+                    <span>Pastor Abiodun Aribike</span>
+                  </p>
+
+                  <p>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i> April 04
+                    <span>7:30 am - 12:00 pm</span>
+                  </p>
+                  <!-- Button trigger modal -->
+                  <a href="#" id="myBtn">Download</a>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                        <a href="#" download="true" class="btn-1">First Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628114928/citadel-of-impact-church/Audio/cp2im9qgceego6qkbnzp.mp3" download="true" class="btn-1">Second Service</a>
+                        <a href="#" download="true" class="btn-1">Third Service</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="single-latest-sermons mb-100">
+              <div class="sermons-thumbnail">
+                <img
+                  src="https://res.cloudinary.com/marykaystuff/image/upload/v1627985111/citadel-of-impact-church/ybfglugmnuhcrts99dbr.jpg"
+                  alt=""
+                />
+                <!-- Date -->
+                <div class="sermons-date">
+                  <h6><span>11</span>April</h6>
+                </div>
+              </div>
+              <div class="sermons-content">
+                <h4>Tongues of Heaven</h4>
+                <div class="sermons-meta-data">
+                  <p>
+                    <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
+                    <span>Pastor Abiodun Aribike</span>
+                  </p>
+
+                  <p>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i> April 11
+                    <span>7:30 am - 12:00 pm</span>
+                  </p>
+                  <!-- Button trigger modal -->
+                  <a href="#" id="myBtn">Download</a>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                      <!-- Modal content -->
+                      <div id="modal-locked">
+                      <div class="modal-content">
+                        <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628115196/citadel-of-impact-church/Audio/wvpssuieugvzg7ckglcb.mp3" download="true" class="btn-1">First Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628115307/citadel-of-impact-church/Audio/jqbny7doakq3ekkesm1i.mp3" download="true" class="btn-1">Second Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628115368/citadel-of-impact-church/Audio/n01g76bqm5cfzf0polm4.mp3" download="true" class="btn-1">Third Service</a>
+                      </div>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Single Latest Sermons -->
-          <div class="col-12 col-sm-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-3">
             <div class="single-latest-sermons mb-100">
               <div class="sermons-thumbnail">
-                <img src="img/bg-img/8.jpg" alt="" />
+                <img
+                  src="https://res.cloudinary.com/marykaystuff/image/upload/v1627985114/citadel-of-impact-church/en5n13dxiejakitqfhel.jpg"
+                  alt=""
+                />
                 <!-- Date -->
                 <div class="sermons-date">
-                  <h6><span>11</span>MAY</h6>
+                  <h6><span>18</span>April</h6>
                 </div>
               </div>
               <div class="sermons-content">
-                <div class="sermons-cata">
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Video"
-                    ><i class="fa fa-video-camera" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Audio"
-                    ><i class="fa fa-headphones" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Docs"
-                    ><i class="fa fa-file" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Download"
-                    ><i class="fa fa-cloud-download" aria-hidden="true"></i
-                  ></a>
-                </div>
-                <h4>What Must I Do To Be Save</h4>
+                <h4>Tongues of Fire</h4>
                 <div class="sermons-meta-data">
                   <p>
                     <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
-                    <span>Jorge Malone</span>
+                    <span>Pastor Abiodun Aribike</span>
                   </p>
+
                   <p>
-                    <i class="fa fa-tag" aria-hidden="true"></i> Categories:
-                    <span>God, Pray</span>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i> April 18
+                    <span>7:30 am - 12:00 pm</span>
                   </p>
-                  <p>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i> March 11 on
-                    <span>10:00 am - 11:00 am</span>
-                  </p>
+                  <!-- Button trigger modal -->
+                  <a href="#" id="myBtn">Download</a>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                      <!-- Modal content -->
+                      <div id="modal-locked">
+                      <div class="modal-content">
+                        <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628115741/citadel-of-impact-church/Audio/xmrbfe2pxjg63snemcww.mp3" download="true" class="btn-1">First Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628115816/citadel-of-impact-church/Audio/fiiruzdadjlybysb1brv.mp3" download="true" class="btn-1">Second Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628115853/citadel-of-impact-church/Audio/ljukb8gnxeym4cnjdrvh.mp3" download="true" class="btn-1">Third Service</a>
+                      </div>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
           </div>
-
-          <!-- Single Latest Sermons -->
-          <div class="col-12 col-sm-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-3">
             <div class="single-latest-sermons mb-100">
               <div class="sermons-thumbnail">
-                <img src="img/bg-img/9.jpg" alt="" />
+                <img
+                  src="https://res.cloudinary.com/marykaystuff/image/upload/v1627985070/citadel-of-impact-church/sm34ajtihpmn53hccthw.jpg"
+                  alt=""
+                />
                 <!-- Date -->
                 <div class="sermons-date">
-                  <h6><span>15</span>MAY</h6>
+                  <h6><span>25</span>April</h6>
                 </div>
               </div>
               <div class="sermons-content">
-                <div class="sermons-cata">
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Video"
-                    ><i class="fa fa-video-camera" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Audio"
-                    ><i class="fa fa-headphones" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Docs"
-                    ><i class="fa fa-file" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="#"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Download"
-                    ><i class="fa fa-cloud-download" aria-hidden="true"></i
-                  ></a>
-                </div>
-                <h4>The Second Coming of Christ</h4>
+                <h4>Tongues of Fire</h4>
                 <div class="sermons-meta-data">
                   <p>
                     <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
-                    <span>Jorge Malone</span>
+                    <span>Pastor Abiodun Aribike</span>
                   </p>
+
                   <p>
-                    <i class="fa fa-tag" aria-hidden="true"></i> Categories:
-                    <span>God, Pray</span>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i> April 25
+                    <span>7:30 am - 12:00 pm</span>
                   </p>
-                  <p>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i> March 10 on
-                    <span>9:00 am - 11:00 am</span>
-                  </p>
+                  <!-- Button trigger modal -->
+                  <a href="#" id="myBtn">Download</a>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                      <!-- Modal content -->
+                      <div id="modal-locked">
+                      <div class="modal-content">
+                        <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628116411/citadel-of-impact-church/Audio/iarzowyqnmmsh0vuqtoa.mp3" download="true" class="btn-1">First Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628159224/citadel-of-impact-church/Audio/yggrhn6b59vuecskx1ld.mp3" download="true" class="btn-1">Second Service</a>
+                        <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628116403/citadel-of-impact-church/Audio/e6gnj2yxr718egnsxx8l.mp3" download="true" class="btn-1">Third Service</a>
+                      </div>
+                      </div>
+                    </div>
                 </div>
               </div>
+            </div>
+          </div>
+            <!-- Single Latest Sermons -->
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="single-latest-sermons mb-100">
+                <div class="sermons-thumbnail">
+                  <img
+                    src="https://res.cloudinary.com/marykaystuff/image/upload/v1627985068/citadel-of-impact-church/grcgsojj8fk84zb8yfly.jpg"
+                    alt=""
+                  />
+                  <!-- Date -->
+                  <div class="sermons-date">
+                    <h6><span>02</span>May</h6>
+                  </div>
+                </div>
+                <div class="sermons-content">
+                  <h4>Sacrificial giving</h4>
+                  <div class="sermons-meta-data">
+                    <p>
+                      <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
+                      <span>Pastor Abiodun Aribike</span>
+                    </p>
+  
+                    <p>
+                      <i class="fa fa-clock-o" aria-hidden="true"></i> May 02
+                      <span>7:30 am - 12:00 pm</span>
+                    </p>
+                    <!-- Button trigger modal -->
+                    <a href="#" id="myBtn">Download</a>
+  
+                      <!-- The Modal -->
+                      <div id="myModal" class="modal">
+  
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                          <a href="#" download="true" class="btn-1">First Service</a>
+                          <a href="#" download="true" class="btn-1">Second Service</a>
+                          <a href="#" download="true" class="btn-1">Third Service</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="single-latest-sermons mb-100">
+                <div class="sermons-thumbnail">
+                  <img
+                    src="https://res.cloudinary.com/marykaystuff/image/upload/v1620715917/citadel-of-impact-church/woassqy94h0hzqkev9q8.jpg"
+                    alt=""
+                  />
+                  <!-- Date -->
+                  <div class="sermons-date">
+                    <h6><span>09</span>May</h6>
+                  </div>
+                </div>
+                <div class="sermons-content">
+                  <h4>Mother A Great Confidant</h4>
+                  <div class="sermons-meta-data">
+                    <p>
+                      <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
+                      <span>Pastor & Mrs Abiodun Aribike</span>
+                    </p>
+  
+                    <p>
+                      <i class="fa fa-clock-o" aria-hidden="true"></i> May 09
+                      <span>7:30 am - 12:00 pm</span>
+                    </p>
+                    <!-- Button trigger modal -->
+                    <a href="#" id="myBtn">Download</a>
+  
+                      <!-- The Modal -->
+                      <div id="myModal" class="modal">
+  
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                          <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628158383/citadel-of-impact-church/Audio/pznurtct7u7hubruh81h.mp3" download="true" class="btn-1">First Service</a>
+                          <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628158282/citadel-of-impact-church/Audio/u2sawtwknpkdzuwh2zul.mp3" download="true" class="btn-1">Second Service</a>
+                          <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1628158338/citadel-of-impact-church/Audio/hera3bipfxrvobx3a8bj.mp3" download="true" class="btn-1">Third Service</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="single-latest-sermons mb-100">
+                <div class="sermons-thumbnail">
+                  <img
+                    src="https://res.cloudinary.com/marykaystuff/image/upload/v1623512138/citadel-of-impact-church/fsvdkoeteuly0jtraww9.jpg"
+                    alt=""
+                  />
+                  <!-- Date -->
+                  <div class="sermons-date">
+                    <h6><span>13</span>June</h6>
+                  </div>
+                </div>
+                <div class="sermons-content">
+                  <h4>Hinderances to Hearing God </h4>
+                  <div class="sermons-meta-data">
+                    <p>
+                      <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
+                      <span>Pastor Abiodun Aribike</span>
+                    </p>
+  
+                    <p>
+                      <i class="fa fa-clock-o" aria-hidden="true"></i> June 13
+                      <span>7:30 am - 12:00 pm</span>
+                    </p>
+                    <!-- Button trigger modal -->
+                    <a href="#" id="myBtn">Download</a>
+  
+                      <!-- The Modal -->
+                      <div id="myModal" class="modal">
+  
+                        <!-- Modal content -->
+                        <div id="modal-locked">
+                        <div class="modal-content">
+                          <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                          <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629893864/citadel-of-impact-church/Audio/aubqsrumnnbdugnscaz6.mp3" download="true" class="btn-1">First Service</a>
+                          <a href="#" download="true" class="btn-1">Second Service</a>
+                          <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629893861/citadel-of-impact-church/Audio/qe8rextm1wmcqyysi5mc.mp3" download="true" class="btn-1">Third Service</a>
+                        </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="single-latest-sermons mb-100">
+                <div class="sermons-thumbnail">
+                  <img
+                    src="https://res.cloudinary.com/marykaystuff/image/upload/v1624108527/citadel-of-impact-church/sqevavdrn7ngbpiqjce2.jpg"
+                    alt=""
+                  />
+                  <!-- Date -->
+                  <div class="sermons-date">
+                    <h6><span>20</span>June</h6>
+                  </div>
+                </div>
+                <div class="sermons-content">
+                  <h4>The Kneeling Father</h4>
+                  <div class="sermons-meta-data">
+                    <p>
+                      <i class="fa fa-user" aria-hidden="true"></i> Host:
+                      <span>Pastor Abiodun Aribike</span>
+                    </p>
+  
+                    <p>
+                      <i class="fa fa-clock-o" aria-hidden="true"></i> June 20
+                      <span>7:30 am - 12:00 pm</span>
+                    </p>
+                    <!-- Button trigger modal -->
+                    <a href="#" id="myBtn">Download</a>
+  
+                      <!-- The Modal -->
+                      <div id="myModal" class="modal">
+  
+                        <!-- Modal content -->
+                        <div id="modal-locked">
+                        <div class="modal-content">
+                          <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                          <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629894552/citadel-of-impact-church/Audio/e58jwlv4f3q7lowfmtib.mp3" download="true" class="btn-1">First Service</a>
+                          <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629894550/citadel-of-impact-church/Audio/znqw7u6qhxldfrbhqv78.mp3" download="true" class="btn-1">Second Service</a>
+                          <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629894555/citadel-of-impact-church/Audio/gmpvmipnnpzrdipc9fxe.mp3" download="true" class="btn-1">Third Service</a>
+                        </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="single-latest-sermons mb-100">
+                <div class="sermons-thumbnail">
+                  <img
+                    src="https://res.cloudinary.com/marykaystuff/image/upload/v1624866558/citadel-of-impact-church/k7wumgjudpbgmgdsdued.jpg"
+                    alt=""
+                  />
+                  <!-- Date -->
+                  <div class="sermons-date">
+                    <h6><span>27</span>June</h6>
+                  </div>
+                </div>
+                <div class="sermons-content">
+                  <h4>Compel Them to Come In</h4>
+                  <div class="sermons-meta-data">
+                    <p>
+                      <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
+                      <span>Pastor Abiodun Aribike</span>
+                    </p>
+  
+                    <p>
+                      <i class="fa fa-clock-o" aria-hidden="true"></i> June 27
+                      <span>7:30 am - 12:00 pm</span>
+                    </p>
+                    <!-- Button trigger modal -->
+                    <a href="#" id="myBtn">Download</a>
+  
+                      <!-- The Modal -->
+                      <div id="myModal" class="modal">
+  
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                          <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629895704/citadel-of-impact-church/Audio/rntfgwdv8c9931wunbe0.mp3" download="true" class="btn-1">First Service</a>
+                          <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629895704/citadel-of-impact-church/Audio/xw9raihlrsmpi9go94xx.mp3" download="true" class="btn-1">Second Service</a>
+                          <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629895703/citadel-of-impact-church/Audio/xkhxvnmt5cv5n4kcwhhv.mp3" download="true" class="btn-1">Third Service</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="single-latest-sermons mb-100">
+            <div class="sermons-thumbnail">
+              <img
+                src="https://res.cloudinary.com/marykaystuff/image/upload/v1624866917/citadel-of-impact-church/agiwrpujpppj1hatm7e1.jpg"
+                alt=""
+              />
+              <!-- Date -->
+              <div class="sermons-date">
+                <h6><span>04</span>July</h6>
+              </div>
+            </div>
+            <div class="sermons-content">
+              <h4>The Crucified Life</h4>
+              <div class="sermons-meta-data">
+                <p>
+                  <i class="fa fa-user" aria-hidden="true"></i> Host:
+                  <span>Pastor Abiodun Aribike</span>
+                </p>
+
+                <p>
+                  <i class="fa fa-clock-o" aria-hidden="true"></i> July 04
+                  <span>7:30 am - 12:00 pm</span>
+                </p>
+                <!-- Button trigger modal -->
+                <a href="#" id="myBtn">Download</a>
+
+                  <!-- The Modal -->
+                  <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div id="modal-locked">
+                    <div class="modal-content">
+                      <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                      <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629896356/citadel-of-impact-church/Audio/chnxbzkc0buazahdw7cy.mp3" download="true" class="btn-1">First Service</a>
+                      <a href="#" download="true" class="btn-1">Second Service</a>
+                      <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629896359/citadel-of-impact-church/Audio/nmgkl0qu1toyfvmg5vis.mp3" download="true" class="btn-1">Third Service</a>
+                    </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="single-latest-sermons mb-100">
+            <div class="sermons-thumbnail">
+              <img
+                src="https://res.cloudinary.com/marykaystuff/image/upload/v1625590018/citadel-of-impact-church/pqffsvyeehwtch3rayxo.jpg"
+                alt=""
+              />
+              <!-- Date -->
+              <div class="sermons-date">
+                <h6><span>11</span>July</h6>
+              </div>
+            </div>
+            <div class="sermons-content">
+              <h4>Joint Heir with Christ</h4>
+              <div class="sermons-meta-data">
+                <p>
+                  <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
+                  <span>Pastor Abiodun Aribike</span>
+                </p>
+
+                <p>
+                  <i class="fa fa-clock-o" aria-hidden="true"></i> July 11
+                  <span>7:30 am - 12:00 pm</span>
+                </p>
+                <!-- Button trigger modal -->
+                <a href="#" id="myBtn">Download</a>
+
+                  <!-- The Modal -->
+                  <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                      <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629896836/citadel-of-impact-church/Audio/tvwuibmv0tj438zwjzzl.mp3" download="true" class="btn-1">First Service</a>
+                      <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629896840/citadel-of-impact-church/Audio/kmhs7onlmbdkjprilpzn.mp3" download="true" class="btn-1">Second Service</a>
+                      <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629896842/citadel-of-impact-church/Audio/kqv4g0cjzrqoeos8ygb7.mp3" download="true" class="btn-1">Third Service</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="single-latest-sermons mb-100">
+          <div class="sermons-thumbnail">
+            <img
+              src="https://res.cloudinary.com/marykaystuff/image/upload/v1624108527/citadel-of-impact-church/sqevavdrn7ngbpiqjce2.jpg"
+              alt=""
+            />
+            <!-- Date -->
+            <div class="sermons-date">
+              <h6><span>18</span>July</h6>
+            </div>
+          </div>
+          <div class="sermons-content">
+            <h4>The Kneeling Father</h4>
+            <div class="sermons-meta-data">
+              <p>
+                <i class="fa fa-user" aria-hidden="true"></i> Host:
+                <span>Pastor Abiodun Aribike</span>
+              </p>
+
+              <p>
+                <i class="fa fa-clock-o" aria-hidden="true"></i> July 18
+                <span>7:30 am - 12:00 pm</span>
+              </p>
+              <!-- Button trigger modal -->
+              <a href="#" id="myBtn">Download</a>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                  <!-- Modal content -->
+                  <div id="modal-locked">
+                  <div class="modal-content">
+                    <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                    <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629897195/citadel-of-impact-church/Audio/mopz56pwpqdob004a3ny.mp3" download="true" class="btn-1">First Service</a>
+                    <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629897194/citadel-of-impact-church/Audio/ehbanynsc4kwokhida8x.mp3" download="true" class="btn-1">Second Service</a>
+                    <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629897196/citadel-of-impact-church/Audio/jzwizrvqeybi6vxxmloa.mp3" download="true" class="btn-1">Third Service</a>
+                  </div>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="single-latest-sermons mb-100">
+          <div class="sermons-thumbnail">
+            <img
+              src="https://res.cloudinary.com/marykaystuff/image/upload/v1627983508/citadel-of-impact-church/i5ujph7glqabgspyn86d.jpg"
+              alt=""
+            />
+            <!-- Date -->
+            <div class="sermons-date">
+              <h6><span>25</span>July</h6>
+            </div>
+          </div>
+          <div class="sermons-content">
+            <h4>The Presence of God</h4>
+            <div class="sermons-meta-data">
+              <p>
+                <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
+                <span>Pastor Abiodun Aribike</span>
+              </p>
+
+              <p>
+                <i class="fa fa-clock-o" aria-hidden="true"></i> July 25
+                <span>7:30 am - 12:00 pm</span>
+              </p>
+              <!-- Button trigger modal -->
+              <a href="#" id="myBtn">Download</a>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                    <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629898003/citadel-of-impact-church/Audio/jruebfpena5dqimou2w4.mp3" download="true" class="btn-1">First Service</a>
+                    <a href="#" download="true" class="btn-1">Second Service</a>
+                    <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629898003/citadel-of-impact-church/Audio/lsshojfikcbj2phif10g.mp3" download="true" class="btn-1">Third Service</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-3">
+    <div class="single-latest-sermons mb-100">
+      <div class="sermons-thumbnail">
+        <img
+          src="https://res.cloudinary.com/marykaystuff/image/upload/v1628074555/citadel-of-impact-church/y581dd4jarhrzmxqvm34.jpg"
+          alt=""
+        />
+        <!-- Date -->
+        <div class="sermons-date">
+          <h6><span>01</span>August</h6>
+        </div>
+      </div>
+      <div class="sermons-content">
+        <h4>The Annoiting</h4>
+        <div class="sermons-meta-data">
+          <p>
+            <i class="fa fa-user" aria-hidden="true"></i> Sermon:
+            <span>Pastor Abiodun Aribike</span>
+          </p>
+
+          <p>
+            <i class="fa fa-clock-o" aria-hidden="true"></i> August 01
+            <span>7:30 am - 12:00 pm</span>
+          </p>
+          <!-- Button trigger modal -->
+          <a href="#" id="myBtn">Download</a>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div id="modal-locked">
+              <div class="modal-content">
+                <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629900251/citadel-of-impact-church/Audio/ixazin5t6ezoxhuneunb.mp3" download="true" class="btn-1">First Service</a>
+                <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629900240/citadel-of-impact-church/Audio/jrjyeqdqlss7oefpf0vs.mp3" download="true" class="btn-1">Second Service</a>
+                <a href="#" download="true" class="btn-1">Third Service</a>
+              </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-3">
+    <div class="single-latest-sermons mb-100">
+      <div class="sermons-thumbnail">
+        <img
+          src="https://res.cloudinary.com/marykaystuff/image/upload/v1628676129/citadel-of-impact-church/kcj698nh0myqmcd4mw0y.jpg"
+          alt=""
+        />
+        <!-- Date -->
+        <div class="sermons-date">
+          <h6><span>08</span>August</h6>
+        </div>
+      </div>
+      <div class="sermons-content">
+        <h4>Wisdom of God</h4>
+        <div class="sermons-meta-data">
+          <p>
+            <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
+            <span>Pastor Abiodun Aribike</span>
+          </p>
+
+          <p>
+            <i class="fa fa-clock-o" aria-hidden="true"></i> August 08
+            <span>7:30 am - 12:00 pm</span>
+          </p>
+          <!-- Button trigger modal -->
+          <a href="#" id="myBtn">Download</a>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629900653/citadel-of-impact-church/Audio/ynomnkij3ejz0wd8rjlq.mp3" download="true" class="btn-1">First Service</a>
+                <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629900653/citadel-of-impact-church/Audio/qbztkj4gu2b0jv4ltiku.mp3" download="true" class="btn-1">Second Service</a>
+                <a href="#" download="true" class="btn-1">Third Service</a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-3">
+      <div class="single-latest-sermons mb-100">
+        <div class="sermons-thumbnail">
+          <img
+            src="https://res.cloudinary.com/marykaystuff/image/upload/v1628938097/citadel-of-impact-church/anh6ikqjbofqiqzxmoif.jpg"
+            alt=""
+          />
+          <!-- Date -->
+          <div class="sermons-date">
+            <h6><span>15</span>August</h6>
+          </div>
+        </div>
+        <div class="sermons-content">
+          <h4>Mercy of God</h4>
+          <div class="sermons-meta-data">
+            <p>
+              <i class="fa fa-user" aria-hidden="true"></i> Host:
+              <span>Pastor Abiodun Aribike</span>
+            </p>
+
+            <p>
+              <i class="fa fa-clock-o" aria-hidden="true"></i> August 15
+              <span>7:30 am - 12:00 pm</span>
+            </p>
+            <!-- Button trigger modal -->
+            <a href="#" id="myBtn">Download</a>
+
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div id="modal-locked">
+                <div class="modal-content">
+                  <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                  <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629905596/citadel-of-impact-church/Audio/v4ug6p7fge2ipac7qzrc.mp3" download="true" class="btn-1">First Service</a>
+                  <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629905591/citadel-of-impact-church/Audio/cr71oudcldh17de1luwq.mp3" download="true" class="btn-1">Second Service</a>
+                  <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629905596/citadel-of-impact-church/Audio/ltxmfm9gcqqoiny2pixp.mp3" download="true" class="btn-1">Third Service</a>
+                </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+      <div class="single-latest-sermons mb-100">
+        <div class="sermons-thumbnail">
+          <img
+            src="https://res.cloudinary.com/marykaystuff/image/upload/v1629527461/citadel-of-impact-church/hkdugtgl3zupryptexsc.jpg"
+            alt=""
+          />
+          <!-- Date -->
+          <div class="sermons-date">
+            <h6><span>22</span>August</h6>
+          </div>
+        </div>
+        <div class="sermons-content">
+          <h4>Angelic Help</h4>
+          <div class="sermons-meta-data">
+            <p>
+              <i class="fa fa-user" aria-hidden="true"></i> Sermon From:
+              <span>Pastor Abiodun Aribike</span>
+            </p>
+
+            <p>
+              <i class="fa fa-clock-o" aria-hidden="true"></i> August 22
+              <span>7:30 am - 12:00 pm</span>
+            </p>
+            <!-- Button trigger modal -->
+            <a href="#" id="myBtn">Download</a>
+
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <p class="close-text">Download Audio<span class="close">&times;</span></p>
+                  <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629905758/citadel-of-impact-church/Audio/fc0lbhmp9sepub7l4hcc.mp3" download="true" class="btn-1">First Service</a>
+                  <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629905756/citadel-of-impact-church/Audio/pp85jc5pimcqr5zikg7d.mp3" download="true" class="btn-1">Second Service</a>
+                  <a href="https://res.cloudinary.com/marykaystuff/video/upload/v1629905754/citadel-of-impact-church/Audio/cnme2irm9x8zib3kgnlv.mp3" download="true" class="btn-1">Third Service</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+</div>
     </section>
     <!-- ##### Latest Sermons Area End ##### -->
 
@@ -707,6 +1527,7 @@
           </div>
         </div>
       </div>
+      
     </section>
     <!-- ##### Subscribe Area End ##### -->
 
@@ -717,28 +1538,29 @@
         <div class="container">
           <div class="row">
             <!-- Single Footer Widget -->
-            <div class="col-12 col-sm-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-lg-4">
               <div class="single-footer-widget mb-70">
                 <a href="#" class="footer-logo"
                   ><img
-                    src="https://res.cloudinary.com/marykaystuff/image/upload/v1615111249/citadel-of-impact-church/gapt5hix2ulyxnsxrnsw.png"
+                    src="https://res.cloudinary.com/marykaystuff/image/upload/v1619346859/citadel-of-impact-church/ljl2afywdhtzibnzn4jz.png"
                     alt=""
                 /></a>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  We believe that a beating path to our doorstep is a pointer to
+                  a divine direction given you to locate a new home and become
+                  part of our larger loving family
                 </p>
               </div>
             </div>
 
             <!-- Single Footer Widget -->
-            <div class="col-12 col-sm-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-lg-4">
               <div class="single-footer-widget mb-70">
                 <h5 class="widget-title">Quick Link</h5>
                 <nav class="footer-menu">
                   <ul>
                     <li>
-                      <a href="#"
+                      <a href="index"
                         ><i
                           class="fa fa-angle-double-right"
                           aria-hidden="true"
@@ -747,8 +1569,8 @@
                       >
                     </li>
                     <li>
-                      <a href="#"
-                        ><i
+                      <a href="events">
+                        <i
                           class="fa fa-angle-double-right"
                           aria-hidden="true"
                         ></i>
@@ -756,7 +1578,7 @@
                       >
                     </li>
                     <li>
-                      <a href="#"
+                      <a href="about"
                         ><i
                           class="fa fa-angle-double-right"
                           aria-hidden="true"
@@ -764,17 +1586,9 @@
                         About Us</a
                       >
                     </li>
+
                     <li>
-                      <a href="#"
-                        ><i
-                          class="fa fa-angle-double-right"
-                          aria-hidden="true"
-                        ></i>
-                        Gallery</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#"
+                      <a href="sermons"
                         ><i
                           class="fa fa-angle-double-right"
                           aria-hidden="true"
@@ -783,7 +1597,7 @@
                       >
                     </li>
                     <li>
-                      <a href="#"
+                      <a href="contact"
                         ><i
                           class="fa fa-angle-double-right"
                           aria-hidden="true"
@@ -792,7 +1606,7 @@
                       >
                     </li>
                     <li>
-                      <a href="#"
+                      <a href="blog"
                         ><i
                           class="fa fa-angle-double-right"
                           aria-hidden="true"
@@ -801,7 +1615,7 @@
                       >
                     </li>
                     <li>
-                      <a href="#"
+                      <a href="donate"
                         ><i
                           class="fa fa-angle-double-right"
                           aria-hidden="true"
@@ -813,53 +1627,31 @@
                 </nav>
               </div>
             </div>
-
             <!-- Single Footer Widget -->
-            <div class="col-12 col-sm-6 col-lg-3">
-              <div class="single-footer-widget mb-70">
-                <h5 class="widget-title">News Latest</h5>
-
-                <!-- Single Latest News -->
-                <div class="single-latest-news">
-                  <a href="#">Polish schools in UK warned</a>
-                  <p>
-                    <i class="fa fa-calendar" aria-hidden="true"></i> November
-                    11, 2017
-                  </p>
-                </div>
-
-                <!-- Single Latest News -->
-                <div class="single-latest-news">
-                  <a href="#">University league tables 2018</a>
-                  <p>
-                    <i class="fa fa-calendar" aria-hidden="true"></i> November
-                    11, 2017
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Single Footer Widget -->
-            <div class="col-12 col-sm-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-lg-4">
               <div class="single-footer-widget mb-70">
                 <h5 class="widget-title">Contact Us</h5>
 
                 <div class="contact-information">
                   <p>
-                    <i class="fa fa-map-marker" aria-hidden="true"></i> 40 Baria
-                    Sreet, NewYork City, US
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    No 9 Atenaga Close, Sagwari Layout,<br /><br />
+                    near Sokale Junction, Dutse-Bwari Road, Abuja.
                   </p>
-                  <a href="callto:001-1234-88888"
-                    ><i class="fa fa-phone" aria-hidden="true"></i>
-                    001-1234-88888</a
+                  <a href="callto:08121808011"
+                    ><i class="fa fa-phone" aria-hidden="true"></i> 09011371118,
+                    08121808011</a
                   >
-                  <a href="mailto:info.deercreative@gmail.com"
+                  <a href="mailto:Info@thecitadelofimpact.org"
                     ><i class="fa fa-envelope" aria-hidden="true"></i>
-                    info.deercreative@gmail.com</a
+                    Info@thecitadelofimpact.org</a
                   >
                   <p>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i> Mon - Fri:
-                    08.00am - 18.00pm
+                    <i class="fa fa-clock-o" aria-hidden="true"></i> Sunday -
+                    First service - 7:30 am,<br /><br />
+                    Second service - 9:00 am,<br /><br />
+                    Third Service - 10:30 am,<br /><br />
+                    Wednesday - 6:00pm.
                   </p>
                 </div>
               </div>
@@ -881,10 +1673,7 @@
                   <script>
                     document.write(new Date().getFullYear());
                   </script>
-                  All rights reserved | This template is made with
-                  <i class="fa fa-heart-o" aria-hidden="true"></i> by
-                  <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  The Citadel of Impact. All rights reserved
                 </p>
               </div>
             </div>
@@ -892,15 +1681,22 @@
             <!-- Footer Social Icon -->
             <div class="col-12 col-md-6">
               <div class="footer-social-icon">
-                <a href="#"
+                  <span class ="text-white" >Follow us on: </span>
+                <a
+                  href="https://web.facebook.com/thecitadelofimpact"
+                  target="_blank"
                   ><i class="fa fa-facebook" aria-hidden="true"></i
                 ></a>
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="#"
-                  ><i class="fa fa-google-plus" aria-hidden="true"></i
+
+                <a
+                  href="https://www.instagram.com/tci_nebcabuja/"
+                  target="_blank"
+                  ><i class="fa fa-instagram" aria-hidden="true"></i
                 ></a>
-                <a href="#"
-                  ><i class="fa fa-linkedin" aria-hidden="true"></i
+                <a
+                  href="https://www.youtube.com/channel/UCNjCH3hoKeMsMh0khsuLQng"
+                  target="_blank"
+                  ><i class="fa fa-youtube" aria-hidden="true"></i
                 ></a>
               </div>
             </div>
@@ -921,5 +1717,6 @@
     <script src="js/plugins/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
+    <script src="js/modal.js"></script>
   </body>
 </html>
